@@ -6,9 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     </head>
     <body>
-        <nav class="navbar has-shadow is-primary"><!--inicio navbar-->
+
+        <nav class="navbar has-shadow is-warning"><!--inicio navbar-->
             <!--logo-->
             <div class="navbar-brand">
                 <img class="milogo py-2 px-2" src="logo.png">
@@ -39,17 +43,271 @@
                </ul>
 
            </nav>
-         </div>
+         </div><!--fin miga de pan-->
+
+         <div class="section"> <!-- inicio producto -->
+
+            <div class="container">
+
+                <div class="columns is-vcentered">
+
+                    <div class="column is-3">
+
+                        <h1 class="is-size-1 title">Docker</h1>
+
+                        <h2 class="is-size-2 subtitle">Dark Coffee</h2>
+                        
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, dolorum maxime pariatur quaerat, tenetur autem ut neque nulla possimus magni eaque ipsa deleniti dolorem consequatur facere ad placeat consectetur ab?</p>
+
+                    </div>
+
+                    <div class="column is-5">
+
+                        <img class="px-6" src="product.png" alt="dark coffe">
+                        
+                    </div>
+
+                    <div class="column is-4">
+                        
+                        <div class="is-size-4 mb-4">$10.95</div>
+
+                        <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur atque soluta dolore maiores nesciunt. Fuga non culpa quae eaque! Excepturi incidunt eligendi porro quo quas alias! Eius ipsam voluptate minus.</p>
+
+                        <button class="button is-warning is-rounded">Agregar al Carrito</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+         </div> <!-- inicio producto -->
+
+         <section class="section">
+
+            <div class="container">
+
+                <div class="columns">
+
+                    <div class="column is-7"> <!-- tabs o pestañas -->
 
 
+                    </div>
 
+                    <div class="column is-5"> <!-- caja de mensajes -->
 
+                        <div class="message is-warning">
 
+                            <div class="message-header">
 
+                                <p>Cambia tus puntos de Coffee Club</p>
 
-<script src="index.js"></script>
+                            </div>
+
+                            <div class="message-body">
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eveniet tempora earum distinctio doloribus. Nam, quibusdam deleniti nostrum totam in quas perspiciatis illum, expedita distinctio exercitationem ipsum vel at velit.</p>
+
+                                <div class="has-text-centered">
+                                    <button class="button is-warning mt-5 " id="btn-register">Registrarse</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+         </section> <!-- fin caja de mensajes -->
+
+        <!-- cards relacionadas -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <h3 class="title has-text-centered">Productos Relacionados</h3>
+
+                <div class="columns is-centered">
+
+                    <div class="column is-3">
+
+                        <div class="card">
+
+                            <div class="card-image has-text-centered">
+
+                                <img src="p1.png" alt="">
+
+                            </div>
+
+                            <div class="card-content">
+
+                                <p>$12.95</p>
+
+                                <p class="title is-size-5">Taza de café</p>
+
+                            </div>
+
+                            <div class="card-footer">
+
+                                <p class="card-footer-item">
+
+                                    <a href="#" class="has-text-grey">Ver mas</a>
+                                
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="column is-3">
+
+                        <div class="card">
+
+                            <div class="card-image has-text-centered">
+
+                                <img src="p2.png" alt="">
+
+                            </div>
+
+                            <div class="card-content">
+
+                                <p>$12.95</p>
+
+                                <p class="title is-size-5">Taza de café</p>
+
+                            </div>
+
+                            <div class="card-footer">
+
+                                <p class="card-footer-item">
+
+                                    <a href="#" class="has-text-grey">Ver mas</a>
+                                
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="column is-3">
+
+                        <div class="card">
+
+                            <div class="card-image has-text-centered">
+
+                                <img src="p3.png" alt="">
+
+                            </div>
+
+                            <div class="card-content">
+
+                                <p>$12.95</p>
+
+                                <p class="title is-size-5">Taza de café</p>
+
+                            </div>
+
+                            <div class="card-footer">
+
+                                <p class="card-footer-item">
+
+                                    <a href="#" class="has-text-grey">Ver mas</a>
+                                
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section> <!-- fin cards relacionadas -->
+
+        <!-- modal -->
         
+        <div class="modal">
 
-    
+            <div class="modal-background"></div>
+
+            <div class="modal-content has-background-white py-5 px-5">
+
+                <h3 class="title mb-6">Unite al Club de puntos</h3>
+
+                <form>
+
+                    <div class="field">
+
+                        <label class="label">Nombre</label>
+
+                        <div class="control">
+
+                            <input type="text" class="input" placeholder="Nombre">
+
+                        </div>
+
+                    </div>
+
+                    <div class="field">
+
+                        <label class="label">Email</label>
+
+                        <div class="control">
+
+                            <input type="email" class="input" placeholder="Email">
+
+                            <!-- <span class="icon is-small is-left">
+
+                                <i class="fas fa-envelope"></i>
+
+                            </span> VER ERROR CON EL PROFE-->
+
+                        </div>
+
+                    </div>
+
+                    <div class="field">
+                        
+                        <div class="control">
+
+                            <label class="checkbox">
+
+                                <input type="checkbox">
+
+                                Yo acepto los <a href="#"> Términos y Condiciones.</a>
+
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                    <div class="mt-6 has-text-centered">
+
+                        <button class="button is-warning">Registrarse</button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+        <script src="index.js"></script>
+
     </body>
 </html>
